@@ -19,7 +19,7 @@ const createDate = (dates, index) => {
       for (let i = 0; i < dates.length; i++) {
         result.push(Date.parse(dates[i]).toString().slice(0, -3))
       }
-      return result.sort().join("-")
+      return result.sort().join("\n")
     }
 };
 
